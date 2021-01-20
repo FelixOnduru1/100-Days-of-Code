@@ -1,1 +1,1 @@
-print("Day 1 - Python Print Function\nThe function is declaed like this:\nprint( 'what to print' )")
+print("Day 1 - Python Print Function\nThe function is declaed like this:\nprint('what to print')")
