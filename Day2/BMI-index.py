@@ -2,7 +2,7 @@ print("This program calculates your BMI and tells you whether you are underweigh
       " overweight, or obese.")
 mass = float(input("What is your weight in kg?\n"))
 height = float(input("What is your height in metres?\n"))
-bmi = round((mass/height**2), 2)
+bmi = round((mass/height**2), 1)
 bmi_new = str(bmi)
 
 
