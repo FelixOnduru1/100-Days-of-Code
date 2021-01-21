@@ -8,4 +8,4 @@ weeks_left = years_left*52
 days_left = years_left*365
 
 print(f"You only have {months_left} months left.\nYou only have {weeks_left} weeks left."
-      f"\nYou only have {days_left} days left.")
+      f"\nYou only have {days_left} days left.af")
