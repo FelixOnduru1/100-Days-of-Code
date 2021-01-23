@@ -37,7 +37,8 @@ elif selection == "scissors":
     selection_value += 2
     print(scissors_image)
 else:
-    print("Please type a valid entry. Rock was selected for you.")
+    selection_value += 3
+    print("Please type a valid entry.")
 computer_selection = random.randint(0, 2)
 print("Computer chose:\n")
 if computer_selection == 0:
