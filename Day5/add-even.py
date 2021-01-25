@@ -5,4 +5,4 @@ for even in range(1, user_range+1):
         sum_even += even
     else:
         sum_even += 0
-print(f"The sum of the even numbers between 1 and {user_range} is {sum_even}.")
+print(f"The sum of the even numbers between 1 and {user_range} (100 inclusive) is {sum_even}.")
