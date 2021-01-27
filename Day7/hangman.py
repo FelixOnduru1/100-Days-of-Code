@@ -1,4 +1,5 @@
 import random
+
 from hangman_art import logo
 from word_list import word_list
 print(logo)
@@ -73,12 +74,18 @@ while "_" in blank_spaces and lives > 0:
         if guess == letter:
             blank_spaces[position] = guess
     blanks_after = blank_spaces.count("_")
+
     if blanks_before > blanks_after:
         lives += 0
         print(stages[6-lives])
+    elif blanks_before == blanks_after and guess in blank_spaces:
+        lives += 0
+        print(f"You have already entered {guess}. Try another letter.")
     else:
         lives -= 1
         print(stages[6-lives])
+        print(f"Unfortunately '{guess}' is not in the word.")
+        print(f"You lose a life. You have {lives} lives remaining.")
     if "_" not in blank_spaces and lives != 0:
         print("You win!!")
     elif "_" in blank_spaces and lives == 0:
