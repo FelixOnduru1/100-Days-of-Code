@@ -5,8 +5,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Day12/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Day14/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Day15/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Day16/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.8 (100-Days-of-Code)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
