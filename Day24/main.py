@@ -17,4 +17,13 @@ with open("my_file.txt", mode="w") as file:
 with open("new_file.txt", mode="w") as new_file:
     new_file.write("This is just another new file.")
 
+# Opening a file that is in a different directory
+with open("/Users/WORLDCOLE/Desktop/outside.txt") as outside:
+    contents = outside.read()
+    print(contents)
+
+# You can also use a relative path to open the same file
+with open("../../../Desktop/outside.txt") as outside:
+    contents = outside.read()
+    print(contents)
 
