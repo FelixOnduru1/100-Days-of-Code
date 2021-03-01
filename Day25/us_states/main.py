@@ -15,12 +15,9 @@ while game_active:
     answer_state = screen.textinput(title=f"Guess a State. {len(guessed_state)}/50", prompt="Type a state name").title()
 
     if len(guessed_state) > 50 or answer_state == "Exit":
-        missed_state = []
-        for state in states:
-            if state not in guessed_state:
-                missed_state.append(state)
-            missed_state_data = pd.DataFrame(missed_state)
-            missed_state_data.to_csv("missed_states.csv")
+        missed_state = [state for state in states if state not in guessed_state]
+        missed_state_data = pd.DataFrame(missed_state)
+        missed_state_data.to_csv("missed_states.csv")
         game_active = False
         break
 
