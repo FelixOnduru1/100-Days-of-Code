@@ -5,7 +5,7 @@ SHEETY_ENDPOINT = os.environ["SHEETY_ENDPOINT"]
 headers = {
             "Authorization": f"Basic {SHEETY_KEY}"
         }
-
+USERS_SHEETY_ENDPOINT = "https://api.sheety.co/7b44dd980a12b66468da9389dae95414/flightDeals/users"
 
 class DataManager:
 
@@ -32,3 +32,10 @@ class DataManager:
                                     json=new_data,
                                     headers=headers)
             print(response.text)
+
+    def get_customer_emails(self):
+        response = requests.get(url=USERS_SHEETY_ENDPOINT, headers=headers)
+        data = response.json()
+        self.customer_data = data["users"]
+        return self.customer_data
+
