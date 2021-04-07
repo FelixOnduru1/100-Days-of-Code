@@ -68,7 +68,7 @@ for job_card in job_cards:
             continue
 
     except NoSuchElementException:
-        print("No application button. Job skipped.")
+        print("No application button. Maybe job has been applied for in the past. Job skipped.")
         continue
 
 
