@@ -11,12 +11,12 @@ driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
 driver.get(TINDER_URL)
 
-time.sleep(5)
-log_in = driver.find_element_by_xpath("//*[@id='t-690321948']/div/div[1]/div/main/div[1]/div/div/div/div/header/div/div[2]/div[2]/button")
+time.sleep(10)
+log_in = driver.find_element_by_xpath('//*[@id="t-1147506855"]/div/div[1]/div/main/div[1]/div/div/div/div/header/div/div[2]/div[2]/button')
 log_in.click()
 
 time.sleep(10)
-facebook_log_in = driver.find_element_by_xpath('//*[@id="t--1349883856"]/div/div/div[1]/div/div[3]/span/div[2]/button')
+facebook_log_in = driver.find_element_by_xpath('//*[@id="t--892698949"]/div/div/div[1]/div/div[3]/span/div[2]/button')
 facebook_log_in.click()
 
 time.sleep(5)
@@ -39,39 +39,62 @@ tinder_page = driver.window_handles[0]
 driver.switch_to.window(tinder_page)
 
 time.sleep(5)
-allow_location_button = driver.find_element_by_xpath('//*[@id="t--1349883856"]/div/div/div/div/div[3]/button[1]')
+allow_location_button = driver.find_element_by_xpath('//*[@id="t--892698949"]/div/div/div/div/div[3]/button[1]')
 allow_location_button.click()
 
 time.sleep(5)
-not_interested_button = driver.find_element_by_xpath('//*[@id="t--1349883856"]/div/div/div/div/div[3]/button[2]')
+not_interested_button = driver.find_element_by_xpath('//*[@id="t--892698949"]/div/div/div/div/div[3]/button[2]')
 not_interested_button.click()
 
 time.sleep(5)
-allow_cookies_button = driver.find_element_by_xpath('//*[@id="t-690321948"]/div/div[2]/div/div/div[1]/button')
+allow_cookies_button = driver.find_element_by_xpath('//*[@id="t-1147506855"]/div/div[2]/div/div/div[1]/button')
 allow_cookies_button.click()
 
 time.sleep(5)
-no_thanks_button = driver.find_element_by_xpath('//*[@id="t--1349883856"]/div/div/div[1]/button')
+no_thanks_button = driver.find_element_by_xpath('//*[@id="t--892698949"]/div/div/div[1]/button')
 no_thanks_button.click()
 
 
-swipe_right = driver.find_element_by_xpath('//*[@id="t-690321948"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div[2]/div[4]/button')
+swipe_right = driver.find_element_by_xpath('//*[@id="t-1147506855"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div[2]/div[4]/button')
 
-swipe_left = driver.find_element_by_xpath('//*[@id="t-690321948"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div[2]/div[2]/button')
+swipe_left = driver.find_element_by_xpath('//*[@id="t-1147506855"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div[2]/div[2]/button')
 
 
-for n in range(100):
+match = 0
+for n in range(20):
     time.sleep(5)
 
     try:
         swipe_right.click()
 
-    # When there is a match
+    # When there is a pop-up
     except ElementClickInterceptedException:
+        # Closing add to home screen pop up
         try:
-            match_popup = driver.find_element_by_css_selector(".itsAMatch a")
-            match_popup.click()
+            extra_pop_up = driver.find_element_by_xpath('//*[@id="t--892698949"]/div/div/div[2]/button[2]')
+            extra_pop_up.click()
+
         except NoSuchElementException:
-            time.sleep(5)
+
+            try:
+                # Closing a super like pop up
+                super_like_exit = driver.find_element_by_xpath('//*[@id="t--892698949"]/div/div/button[2]')
+                super_like_exit.click()
+            except NoSuchElementException:
+
+                # Closing a match pop up
+                time.sleep(2)
+                print("You have a match!")
+                match += 1
+                match_popup_close = driver.find_element_by_xpath('//*[@id="t--1495887802"]/div/div/div[1]/div/div[4]/button')
+                match_popup_close.click()
+
 
 driver.close()
+
+if match == 1:
+
+    print(f"You have {match} match today.")
+
+else:
+    print(f"You have {match} matches today.")
