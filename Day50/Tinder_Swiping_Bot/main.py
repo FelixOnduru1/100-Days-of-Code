@@ -12,7 +12,8 @@ driver = webdriver.Chrome(executable_path=chrome_driver_path)
 driver.get(TINDER_URL)
 
 time.sleep(10)
-log_in = driver.find_element_by_xpath('//*[@id="t-1147506855"]/div/div[1]/div/main/div[1]/div/div/div/div/header/div/div[2]/div[2]/button')
+log_in = driver.find_element_by_xpath(
+    '//*[@id="t-1147506855"]/div/div[1]/div/main/div[1]/div/div/div/div/header/div/div[2]/div[2]/button')
 log_in.click()
 
 time.sleep(10)
@@ -34,9 +35,18 @@ password_input.send_keys(FACEBOOK_PASSWORD)
 facebook_log_in_button = driver.find_element_by_id("loginbutton")
 facebook_log_in_button.click()
 
+
 time.sleep(5)
 tinder_page = driver.window_handles[0]
 driver.switch_to.window(tinder_page)
+
+time.sleep(5)
+allow_cookies_button = driver.find_element_by_xpath('//*[@id="t-1147506855"]/div/div[2]/div/div/div[1]/button')
+allow_cookies_button.click()
+
+time.sleep(5)
+unable_facebook = driver.find_element_by_xpath('//*[@id="t--892698949"]/div/div/div[1]/div/div[3]/span/div[2]/button')
+unable_facebook.click()
 
 time.sleep(5)
 allow_location_button = driver.find_element_by_xpath('//*[@id="t--892698949"]/div/div/div/div/div[3]/button[1]')
@@ -47,25 +57,22 @@ not_interested_button = driver.find_element_by_xpath('//*[@id="t--892698949"]/di
 not_interested_button.click()
 
 time.sleep(5)
-allow_cookies_button = driver.find_element_by_xpath('//*[@id="t-1147506855"]/div/div[2]/div/div/div[1]/button')
-allow_cookies_button.click()
-
-time.sleep(5)
 no_thanks_button = driver.find_element_by_xpath('//*[@id="t--892698949"]/div/div/div[1]/button')
 no_thanks_button.click()
 
+swipe_right = driver.find_element_by_xpath(
+    '//*[@id="t-1147506855"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div[2]/div[4]/button')
 
-swipe_right = driver.find_element_by_xpath('//*[@id="t-1147506855"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div[2]/div[4]/button')
-
-swipe_left = driver.find_element_by_xpath('//*[@id="t-1147506855"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div[2]/div[2]/button')
-
+swipe_left = driver.find_element_by_xpath(
+    '//*[@id="t-1147506855"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div[2]/div[2]/button')
 
 match = 0
-for n in range(20):
+for n in range(10):
     time.sleep(5)
 
     try:
         swipe_right.click()
+        print(f"This is swipe {n}")
 
     # When there is a pop-up
     except ElementClickInterceptedException:
@@ -86,9 +93,9 @@ for n in range(20):
                 time.sleep(2)
                 print("You have a match!")
                 match += 1
-                match_popup_close = driver.find_element_by_xpath('//*[@id="t--1495887802"]/div/div/div[1]/div/div[4]/button')
+                match_popup_close = driver.find_element_by_xpath(
+                    '//*[@id="t--1495887802"]/div/div/div[1]/div/div[4]/button')
                 match_popup_close.click()
-
 
 driver.close()
 
