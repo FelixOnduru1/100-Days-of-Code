@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e758e409-e502-4b88-9db1-0bca17cace3a" name="Default Changelist" comment="Updated for incorrect user entries.">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/100-Days-of-Code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/100-Days-of-Code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1nKfyKKh1bDWBz2fE4bJDR4djcv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Day53/venv" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\WORLDCOLE\PycharmProjects\100-Days-of-Code\Day52" />
+      <recent name="C:\Users\WORLDCOLE\PycharmProjects\100-Days-of-Code\Day53\hello_flask" />
+      <recent name="C:\Users\WORLDCOLE\PycharmProjects\100-Days-of-Code\Day45\beautiful-soup" />
+      <recent name="C:\Users\WORLDCOLE\PycharmProjects\100-Days-of-Code\Day17\src" />
+      <recent name="C:\Users\WORLDCOLE\PycharmProjects\100-Days-of-Code\Day12\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main (7)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100-Days-of-Code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day48/Selenium-web-driver" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day48/Selenium-web-driver/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100-Days-of-Code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="INSTAGRAM_USERNAME" value="python404_bot" />
+        <env name="INSTAGRAM_PASSWORD" value="LXPLM9x2kKv6BMx" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day52/instagram_follower_bot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day52/instagram_follower_bot/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100-Days-of-Code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="EMAIL" value="pythonsmtp404@gmail.com" />
+        <env name="FACEBOOK_PASSWORD" value="EAUybinT3Dwespr" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day50/Tinder_Swiping_Bot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day50/Tinder_Swiping_Bot/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (5)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="100-Days-of-Code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="SHEETY_KEY" value="d29ybGRjb2xlOlRiaGpiWU9VYnl1Ym9i" />
+        <env name="TWILIO_ACCOUNT_SID" value="AC275796adcd03cedefa2ffea7b721c0e9" />
+        <env name="TWILIO_AUTH_TOKEN" value="a5a64a50422a2319d3bafab0cb5c5c8c" />
+        <env name="TEQUILA_API_KEY" value="-ZR06k_HGHWhMrhvgUclzuxyL9OZgEaG" />
+        <env name="SHEETY_ENDPOINT" value="https://api.sheety.co/7b44dd980a12b66468da9389dae95414/flightDeals/prices" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day39" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day39/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (6)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="100-Days-of-Code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="GOOGLE_FORM_LINK" value="https://docs.google.com/forms/d/e/1FAIpQLSchuW1epzOTHgamNL7ciJwXuMjT8DRPkk-ivYGH8tIaPsX18w/viewform?usp=sf_link" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day53" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day53/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (7)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100-Days-of-Code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day54/function_runtime" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day54/function_runtime/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100-Days-of-Code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="INSTAGRAM_USERNAME" value="python404_bot" />
+        <env name="INSTAGRAM_PASSWORD" value="LXPLM9x2kKv6BMx" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/instagram_follower_bot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/instagram_follower_bot/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tweet_bot" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="100-Days-of-Code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="TWITTER_EMAIL" value="pythonsmtp404@gmail.com" />
+        <env name="TWITTER_PASSWORD" value="EAUybinT3Dwespr" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day51/Internet_speed -complaint_bot_twittter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day51/Internet_speed -complaint_bot_twittter/tweet_bot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main (5)" />
+      <item itemvalue="Python.main (6)" />
+      <item itemvalue="Python.tweet_bot" />
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.main (2)" />
+      <item itemvalue="Python.main (3)" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.main (7)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main (7)" />
+        <item itemvalue="Python.main (3)" />
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e758e409-e502-4b88-9db1-0bca17cace3a" name="Default Changelist" comment="" />
+      <created>1611143968200</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611143968200</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Open, read and writing files">
+      <created>1614129201721</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1614129201721</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Snake game improved to store high score">
+      <created>1614130074773</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1614130074773</updated>
+    </task>
+    <task id="LOCAL-00069" summary="mail merging module">
+      <created>1614150913233</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1614150913233</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Created the US States Game">
+      <created>1614274907361</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1614274907361</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Squirrel count by fur">
+      <created>1614274946555</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1614274946555</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Basics of pandas in reading and writing csv">
+      <created>1614274982013</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1614274982013</updated>
+    </task>
+    <task id="LOCAL-00073" summary="day26 list and dictionary comprehension">
+      <created>1614606274792</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1614606274792</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Miles to km GUI">
+      <created>1614853869389</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1614853869389</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Tkinter, args and kwargs">
+      <created>1614853907300</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1614853907300</updated>
+    </task>
+    <task id="LOCAL-00076" summary="created pomodoro">
+      <created>1614866909044</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1614866909044</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Created password manager GUI. Works Fine.">
+      <created>1615025183905</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1615025183905</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Updated NATO to print error message in case words entered not in alphabet.">
+      <created>1615033896945</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1615033896945</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Version 2 of password generator that saves the password in json and includes a search button.">
+      <created>1615033978578</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1615033978578</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Intro json and exceptions.">
+      <created>1615034031412</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1615034031412</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Created flash card GUI. Works perfectly.">
+      <created>1615195956853</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1615195956853</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Start project email stmp.">
+      <created>1615234434171</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1615234434171</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Intro to datetime module.">
+      <created>1615234472219</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1615234472219</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Happy new week motivation email sender">
+      <created>1615337992738</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1615337992738</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Created the birthday wisher program.">
+      <created>1615393022630</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1615393022630</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Created quiz game with api">
+      <created>1615801933981</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1615801933981</updated>
+    </task>
+    <task id="LOCAL-00087" summary="minor change">
+      <created>1615867615826</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1615867615826</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Rain alert using twilio and weather api. Completed.">
+      <created>1615876900770</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1615876900770</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Stocks News Alert using twilio, stocks and news api. Completed.">
+      <created>1615925770390</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1615925770390</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Created a Habit Tracker that uses Pixela api. Completed.">
+      <created>1615974005129</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1615974005129</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Created a Workout Tracker using Google Sheets, Sheety Api, and Nutritionix Api. Completed.">
+      <created>1615986097613</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1615986097613</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Created the flight dealer application using Twilio, Tequila, Sheety apis. Completed part 1.">
+      <created>1616077844634</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1616077844634</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Finished the flight club capstone project. Included email registration to send emails to users. Included functionality to add flights that have a stopover, in case direct flights were not found.">
+      <created>1616146273442</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1616146273442</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Learnt the basics of web scraping from a html document using BeautifulSoap.">
+      <created>1617261825877</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1617261825882</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Practised web scraping by scraping the Yc Combinator News website.">
+      <created>1617266701446</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1617266701446</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Practised web scraping by scraping the Empire website for 100 best movies.">
+      <created>1617270825860</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1617270825860</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Webscrapped for Billboard top 100 according to user date and used spotipy to create a playlist of the songs.">
+      <created>1617297639057</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1617297639057</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Finished the Amazon Price Tracker">
+      <created>1617685696261</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1617685696261</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Learned the basics of web scraping with Selenium Webdriver.">
+      <created>1617692320851</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1617692320851</updated>
+    </task>
+    <task id="LOCAL-00100" summary="Webscrapped Python.org for the event list and created a dictionary with time and event.">
+      <created>1617692381671</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1617692381676</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Learned interactions such as click and search using Selenium.">
+      <created>1617699629971</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1617699629971</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Filled a form and submitted using Selenium.">
+      <created>1617699679590</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1617699679591</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Finished Cookie Clicker Game with Selenium.">
+      <created>1617727865953</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1617727865953</updated>
+    </task>
+    <task id="LOCAL-00104" summary="A bot for applying top job in LinkedIn search. Completed using Selenium.">
+      <created>1617784244884</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1617784244884</updated>
+    </task>
+    <task id="LOCAL-00105" summary="A bot for applying all jobs in LinkedIn search. Completed using Selenium.">
+      <created>1617784275781</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1617784275781</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Minor changes on print message of a skipped job.">
+      <created>1617784392836</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1617784392836</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Auto Tinder Swipe bot completed. Yet to test it due to end of likes.">
+      <created>1617800649090</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1617800649090</updated>
+    </task>
+    <task id="LOCAL-00108" summary="Finished the Auto Tinder Swipe Bot but yet to make the Tinder buttons xpaths easy to change.">
+      <created>1617861108646</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1617861108646</updated>
+    </task>
+    <task id="LOCAL-00109" summary="Finished the Internet Speed Twitter Complaint Bot.">
+      <created>1617878384066</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1617878384066</updated>
+    </task>
+    <task id="LOCAL-00110" summary="Finished the InstaFollower Bot.">
+      <created>1617888370803</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1617888370803</updated>
+    </task>
+    <task id="LOCAL-00111" summary="Changed code to fix the unable to login facebook error">
+      <created>1618220243052</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1618220243052</updated>
+    </task>
+    <task id="LOCAL-00112" summary="No major change.">
+      <created>1618220298800</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1618220298800</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Completed data entry project. Scrapped using Beautiful Soup on a rental website. Used Selenium to fill a google form and submit responses.">
+      <created>1618220387297</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1618220387297</updated>
+    </task>
+    <task id="LOCAL-00114" summary="Completed exercise on python decorators.">
+      <created>1618308006757</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1618308006757</updated>
+    </task>
+    <task id="LOCAL-00115" summary="Improved Tinder Swiping Bot to collect data and save on txt file.">
+      <created>1618308066729</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1618308066729</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Created a Workout Tracker using Google Sheets, Sheety Api, and Nutritionix Api. Completed." />
+    <MESSAGE value="Created the flight dealer application using Twilio, Tequila, Sheety apis. Completed part 1." />
+    <MESSAGE value="Finished the flight club capstone project. Included email registration to send emails to users. Included functionality to add flights that have a stopover, in case direct flights were not found." />
+    <MESSAGE value="Learnt the basics of web scraping from a html document using BeautifulSoap." />
+    <MESSAGE value="Practised web scraping by scraping the Yc Combinator News website." />
+    <MESSAGE value="Practised web scraping by scraping the Empire website for 100 best movies." />
+    <MESSAGE value="Webscrapped for Billboard top 100 according to user date and used spotipy to create a playlist of the songs." />
+    <MESSAGE value="Finished the Amazon Price Tracker" />
+    <MESSAGE value="Learned the basics of web scraping with Selenium Webdriver." />
+    <MESSAGE value="Webscrapped Python.org for the event list and created a dictionary with time and event." />
+    <MESSAGE value="Learned interactions such as click and search using Selenium." />
+    <MESSAGE value="Filled a form and submitted using Selenium." />
+    <MESSAGE value="Finished Cookie Clicker Game with Selenium." />
+    <MESSAGE value="A bot for applying top job in LinkedIn search. Completed using Selenium." />
+    <MESSAGE value="A bot for applying all jobs in LinkedIn search. Completed using Selenium." />
+    <MESSAGE value="Minor changes on print message of a skipped job." />
+    <MESSAGE value="Auto Tinder Swipe bot completed. Yet to test it due to end of likes." />
+    <MESSAGE value="Finished the Auto Tinder Swipe Bot but yet to make the Tinder buttons xpaths easy to change." />
+    <MESSAGE value="Finished the Internet Speed Twitter Complaint Bot." />
+    <MESSAGE value="Finished the InstaFollower Bot." />
+    <MESSAGE value="Changed code to fix the unable to login facebook error" />
+    <MESSAGE value="No major change." />
+    <MESSAGE value="Completed data entry project. Scrapped using Beautiful Soup on a rental website. Used Selenium to fill a google form and submit responses." />
+    <MESSAGE value="Completed exercise on python decorators." />
+    <MESSAGE value="Improved Tinder Swiping Bot to collect data and save on txt file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved Tinder Swiping Bot to collect data and save on txt file." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Day1/main.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
