@@ -90,6 +90,7 @@ for n in range(10):
             extra_pop_up.click()
             index_of_swipe.append(n)
             type_swipe.append("pop-up")
+            print(f"This is index {n}. This is a pop-up.")
             result.append(0)
 
         except NoSuchElementException:
@@ -99,6 +100,7 @@ for n in range(10):
                 # Closing a super like pop up
                 super_like_exit = driver.find_element_by_xpath('//*[@id="t--892698949"]/div/div/button[2]')
                 super_like_exit.click()
+                print(f"This is index {n}. This is a super like.")
                 type_swipe.append("pop-up")
             except NoSuchElementException:
 
@@ -133,6 +135,7 @@ for item in type_swipe:
 
 
 print(type_swipe)
+print(len(type_swipe))
 with open(file=f"{actual_time}.txt", mode="w") as file:
     for value in type_swipe:
         file.write(f"{value},\n")
