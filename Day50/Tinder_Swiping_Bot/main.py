@@ -15,12 +15,11 @@ driver.get(TINDER_URL)
 current_time = datetime.now()
 actual_time = current_time.strftime("%Y-%m-%d %H-%M-%S")
 time.sleep(10)
-log_in = driver.find_element_by_xpath(
-    '//*[@id="t-1147506855"]/div/div[1]/div/main/div[1]/div/div/div/div/header/div/div[2]/div[2]/button')
+log_in = driver.find_element_by_xpath('//*[@id="s1107296492"]/div/div[1]/div/main/div[1]/div/div/div/div/header/div/div[2]/div[2]/a')
 log_in.click()
 
 time.sleep(10)
-facebook_log_in = driver.find_element_by_xpath('//*[@id="t--892698949"]/div/div/div[1]/div/div[3]/span/div[2]/button')
+facebook_log_in = driver.find_element_by_xpath('//*[@id="s-621084584"]/div/div/div[1]/div/div[3]/span/div[2]/button')
 facebook_log_in.click()
 
 time.sleep(10)
@@ -44,36 +43,36 @@ tinder_page = driver.window_handles[0]
 driver.switch_to.window(tinder_page)
 
 time.sleep(5)
-allow_cookies_button = driver.find_element_by_xpath('//*[@id="t-1147506855"]/div/div[2]/div/div/div[1]/button')
+allow_cookies_button = driver.find_element_by_xpath('//*[@id="s1107296492"]/div/div[2]/div/div/div[1]/button')
 allow_cookies_button.click()
 
 time.sleep(5)
-unable_facebook = driver.find_element_by_xpath('//*[@id="t--892698949"]/div/div/div[1]/div/div[3]/span/div[2]/button')
+unable_facebook = driver.find_element_by_xpath('//*[@id="s-621084584"]/div/div/div[1]/div/div[3]/span/div[2]/button')
 unable_facebook.click()
 
 time.sleep(5)
-allow_location_button = driver.find_element_by_xpath('//*[@id="t--892698949"]/div/div/div/div/div[3]/button[1]')
+allow_location_button = driver.find_element_by_xpath('//*[@id="s-621084584"]/div/div/div/div/div[3]/button[1]/span')
 allow_location_button.click()
 
 time.sleep(5)
-not_interested_button = driver.find_element_by_xpath('//*[@id="t--892698949"]/div/div/div/div/div[3]/button[2]')
+not_interested_button = driver.find_element_by_xpath('//*[@id="s-621084584"]/div/div/div/div/div[3]/button[2]')
 not_interested_button.click()
 
 time.sleep(5)
-no_thanks_button = driver.find_element_by_xpath('//*[@id="t--892698949"]/div/div/div[1]/button')
+no_thanks_button = driver.find_element_by_xpath('//*[@id="s-621084584"]/div/div/div[1]/button/span')
 no_thanks_button.click()
 
 swipe_right = driver.find_element_by_xpath(
-    '//*[@id="t-1147506855"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div[2]/div[4]/button')
+    '//*[@id="s1107296492"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div[2]/div[4]/button')
 
 swipe_left = driver.find_element_by_xpath(
-    '//*[@id="t-1147506855"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div[2]/div[2]/button')
+    '//*[@id="s1107296492"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div[2]/div[2]/button')
 
 match = 0
 index_of_swipe = []
 type_swipe = []
 result = []
-for n in range(10):
+for n in range(24):
     time.sleep(5)
 
     try:
@@ -86,7 +85,7 @@ for n in range(10):
     except ElementClickInterceptedException:
         # Closing add to home screen pop up
         try:
-            extra_pop_up = driver.find_element_by_xpath('//*[@id="t--892698949"]/div/div/div[2]/button[2]')
+            extra_pop_up = driver.find_element_by_xpath('//*[@id="s-621084584"]/div/div/div[2]/button[2]/span')
             extra_pop_up.click()
             index_of_swipe.append(n)
             type_swipe.append("pop-up")
@@ -98,7 +97,7 @@ for n in range(10):
 
             try:
                 # Closing a super like pop up
-                super_like_exit = driver.find_element_by_xpath('//*[@id="t--892698949"]/div/div/button[2]')
+                super_like_exit = driver.find_element_by_xpath('//*[@id="s-621084584"]/div/div/button[2]/span')
                 super_like_exit.click()
                 print(f"This is index {n}. This is a super like.")
                 type_swipe.append("pop-up")
@@ -114,9 +113,10 @@ for n in range(10):
 
                 match += 1
                 match_popup_close = driver.find_element_by_xpath(
-                    '//*[@id="t--1495887802"]/div/div/div[1]/div/div[4]/button')
+                    '//*[@id="s1437667693"]/div/div/div[1]/div/div[4]/button')
                 match_popup_close.click()
 
+time.sleep(10)
 driver.close()
 
 print(type_swipe)
@@ -129,9 +129,7 @@ for item in type_swipe:
 
     elif item == "pop-up":
         index = type_swipe.index(item)
-        type_swipe[index] = "eliminated"
         type_swipe.pop(index)
-        type_swipe.pop(index-1)
 
 
 print(type_swipe)
